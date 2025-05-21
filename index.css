@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    /* background-color: hsl(0, 0%, 95%); */
+    background-color: rgb(75, 47, 47);
+    
+
+}
+img{max-width: 60px;
+}
+
+
+.car-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20%;
+    overflow: hidden;
+    border-radius: 1px;
+    min-height: 50vh;
+    min-width: 100vh;
+    
+}
+.cartype {
+    min-width: 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+
+}
+.sedan-container {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.suv-container {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury-container {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders", serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+}
+button {
+    border-style: none;
+    border-radius: 1rem;
+    max-width: 7rem;
+    min-height: 2.3rem;
+    margin-top: 40px;
+    padding: 3px;
+    color: grey;
+    background-color: hsl(0, 0%, 95%);
+
+}
+.sdn-btn {
+    color: hsl(31, 77%, 52%);
+    font-family: "Lexend Deca";
+}
+.suv-btn {
+    color: hsl(184, 100%, 22%);
+    font-family: "Lexend Deca";
+}
+.lux-btn {
+    color: hsl(179, 100%, 13%);
+    font-family: "Lexend Deca";
+}
